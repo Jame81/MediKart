@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediKart</title>
+
+    <link rel="stylesheet" href=""https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"">
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!--custom css file link-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="coverPage" class="cover-page">
+        <h1>Welcome to <span>MediKart</span></h1>
+    </div>
+
+
+    
+<!-- header section starts -->
+    <header>
+
+        <!-- Hamburger Icon -->
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+        <!-- Mobile Menu (initially hidden) -->
+        <div id="mobileMenu" class="mobile-menu">
+            <button class="close-btn" onclick="toggleMenu()">✖</button>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <a href="#" class="logo">MediKart<span>.</span></a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">about</a>
+            <a href="#products">products</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+
+
+     </header>
+<!-- header section ends -->
+
+<!-- home section start -->
+ <section class="home" id="home">
+    <div class="content">
+        <h3>Medical Supplies</h3>
+        <span>Trusted Source for Quality Medical Supplies</span>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eius delectus laudantium perspiciatis accusamus labore mollitia unde maiores culpa velit.</p>
+        <a href="#" class="btn">Shop Now</a>
+    </div>
+ </section>
+<!-- home section ends -->
+
+<!-- about section starts -->
+<section class="about" id="about">
+    <h1 class="heading"> <span> about </span> us </h1>
+    <div class="row">
+        <div class="video-container">
+            <video src="./asset/Recording 2025-06-12 110018.mp4" loop autoplay muted></video>
+            <h3>High Quality Products</h3>
+        </div>
+        <div class="content">
+            <h3>Why choose us ?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ipsam aliquid quo quia. Natus, quidem. Sint cum ad iure quos?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum voluptatem accusamus consectetur quia libero iste explicabo laudantium impedit autem molestiae?</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+
+    </div>
+</section>
+<!-- about section ends -->
+
+<!-- icons section start -->
+ <section class="icons-container">
+    <div class="icons">
+        <img src="./asset/free-shipping.png" alt="">
+        <div class="info">
+            <h3>Free Delivery</h3>
+            <span>On all Delivery</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="./asset/product-return.png" alt="">
+        <div class="info">
+            <h3>10 days returns</h3>
+            <span>money return guarnteed</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="./asset/gift-card.png" alt="">
+        <div class="info">
+            <h3>Offers & Gifts</h3>
+            <p>on all orders</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="./asset/money.png" alt="">
+        <div class="info">
+            <h3>Secure Payment</h3>
+            <p>Secured by GooglePay</p>
+        </div>
+    </div>
+ </section>
+<!-- icons section ends -->
+
+<!-- products section starts -->
+
+<section class="products" id="products">
+    <h1 class="heading"> Latest <span>Products</span></h1>
+    <div class="box-container">
+
+        <div class="box">
+            <span class="discount">-10%</span>
+            <div class="image">
+                <img src="./asset/gloves.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Surgical gloves</h3>
+                <div class="price"> $5.99 <span>$13.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-15%</span>
+            <div class="image">
+                <img src="./asset/mask.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Surgical masks</h3>
+                <div class="price"> $5.99 <span>$8.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-15%</span>
+            <div class="image">
+                <img src="./asset/syringe.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Sterialized Syringe</h3>
+                <div class="price"> $9.99 <span>$16.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-20%</span>
+            <div class="image">
+                <img src="./asset/steth.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Stethoscope</h3>
+                <div class="price"> $50.99 <span>$105.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-15%</span>
+            <div class="image">
+                <img src="./asset/bp.webp" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Blood Pressure Machine</h3>
+                <div class="price"> $89.99 <span>$216.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-15%</span>
+            <div class="image">
+                <img src="./asset/sugar.webp" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Sugar Machine</h3>
+                <div class="price"> $99.99 <span>$1116.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-15%</span>
+            <div class="image">
+                <img src="./asset/pads.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Alcohol pads</h3>
+                <div class="price"> $19.99 <span>$56.99</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- products section ends -->
+ 
+<!-- reviews section starts -->
+<!-- reviews section starts -->
+<section class="reviews" id="review">
+  <h2 class="section-title">✨ Customer Reviews ✨</h2>
+
+  <div class="slider-wrapper">
+    <button onclick="slidePrev()" class="slide-btn left-btn">←</button>
+
+    <div class="slider" id="slider">
+      <div class="review-card">
+        <img src="./asset/user1.jpg" alt="John Doe">
+        <h3>John Doe</h3>
+        <p>100% Quality Products. Loved The Stuff. Will Order Again.</p>
+      </div>
+      <div class="review-card">
+        <img src="./asset/user2.jpg" alt="James Patrick">
+        <h3>James Patrick</h3>
+        <p>Sterilized Products. 5 Star Rating.</p>
+      </div>
+      <div class="review-card">
+        <img src="./asset/user3.jpg" alt="Wanda">
+        <h3>Wanda</h3>
+        <p>Sterilized Products. 5 Star Rating.</p>
+      </div>
+    </div>
+
+    <button onclick="slideNext()" class="slide-btn right-btn">→</button>
+  </div>
+</section>
+<!-- review section ends -->
+
+<!-- contact section starts -->
+<section class="contact" id="contact">
+    <h1 class="heading"> <span> Contact</span> us </h1>
+    <div class="row">
+        <form action="">
+            <input type="text" placeholder="name" class="box">
+            <input type="email" placeholder="email" class="box">
+            <input type="number" placeholder="number" class="box">
+            <textarea name="" class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+        <div class="image">
+            <img src="./asset/contact.webp" alt="">
+        </div>
+    </div>
+</section>
+
+
+<!-- contact section ends -->
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
